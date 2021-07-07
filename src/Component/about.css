@@ -1,0 +1,54 @@
+ 
+
+.curved  { 
+      
+    
+
+    overflow: hidden;
+
+}
+
+.item-s {
+    
+     justify-content: center;
+  align-items: center;
+margin-top: 20px;
+    background: rgb(255, 0, 0);
+    color: white;
+    text-align: center;
+
+}
+
+.curved .ima {
+    width: 300px;
+    height: 320px;
+    border-radius: 100px;
+}
+
+
+.curved p {
+ padding: 0 40px 0 40px;
+text-align: center;
+    border-radius: 300%;
+}
+
+.item-s svg {
+    display: block;
+  
+   margin: 0;
+}
+
+.lining {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.lining::after {
+    content: '';
+    display: block;
+    width: 6.25rem;
+    height: 2px;
+    margin: 1.25rem auto;
+    background: #ffffff;
+}

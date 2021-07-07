@@ -1,0 +1,151 @@
+.Form {
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    max-height: 100vh;
+    color: red;
+
+
+}
+
+.lined {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.lined  h2 {
+    color: black;
+}
+
+.lined::after {
+    content: '';
+    display: block;
+    width: 6.25rem;
+    height: 2px;
+    margin: 1.25rem auto;
+    background: #3d3030;
+}
+
+.Form .row100 {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 10fr) );  
+    padding: 10px;
+      background-color: rgb(240, 234, 234);
+    border-radius: 7PX;
+    
+}
+
+.Form .row100 .col {
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    margin: 20px 0 10px;
+    transition: 0.4s;
+}
+.Form .row100 .input-area {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color: rgba(255, 0, 0, 0.993);
+}
+
+.Form .row100 .input-area input,
+.Form .row100 .input-area.text-area textarea
+   {
+    width: 100%;
+    position: absolute;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 0 10px;
+    color: rgb(255, 255, 255);
+    outline: none;
+         z-index: 2;
+
+
+}
+
+.Form .row100 .input-area .text {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 500;
+
+    padding: 0 10px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+ .Form .row100 .input-area input:focus + .text,
+  .Form .row100 .input-area input:valid + .text
+  {
+     top: -35px;
+    left:  -10px;
+} 
+
+.Form .row100 .input-area .line {
+position: absolute;
+bottom: 0;
+display: block;
+width: 100%;
+height: 2px;
+pointer-events: none;
+transition: 0.5s;
+background: #000;
+border-radius: 5px;
+}
+
+
+
+ .Form .row100 .input-area input:focus ~ .line,
+  .Form .row100 .input-area input:valid ~ .line
+
+  {
+      height: 100%;
+
+  }
+
+    .btn-3 {
+       top: -20;
+       text-align: center;
+   }
+
+
+ .col button {
+      color: red;
+      background-color: #fff;
+      border: none;
+      padding: 1px 50px;
+      font-size: 20px;
+     font-weight: 500;
+    text-transform: uppercase;
+      outline: none;
+      border-radius: 5px;
+      transition: 0.3s ease;
+ }
+
+
+ .error { 
+     position: relative;
+     color: red;
+     font: 20px;
+     z-index: 1;
+ }
+
+ 
+ .col button:hover{
+     color: white;
+     background: red;
+ }
+   
+
+

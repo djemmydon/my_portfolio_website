@@ -1,0 +1,58 @@
+.what-i-do {
+    background-color: rgb(200, 199, 199);
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.main-do {
+padding: 10px;
+}
+
+.main-do p {
+    font-size: 15px;
+    color: rgb(255, 254, 254);
+
+}
+
+.main-do .icons {
+    font-size: 40px;
+}
+
+.main-do .button-1 {
+    outline: none;
+    padding: 5px 40px;
+    border: none;
+    font: 20px;
+    background: red;
+    border-radius: 7px;
+
+     border: 2px solid rgb(255, 255, 255);
+    color: white;
+
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: 0.3s ease all;
+
+}
+
+.button-1:hover {
+        background: white;
+        color: red;
+        border: 2px solid red;
+
+}
+
+.lined {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.lined::after {
+    content: '';
+    display: block;
+    width: 6.25rem;
+    height: 2px;
+    margin: 1.25rem auto;
+    background: #3d3030;
+}

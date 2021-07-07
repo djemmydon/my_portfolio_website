@@ -1,0 +1,183 @@
+a:hover {
+text-decoration: none;
+}
+
+.all-nav {
+ position: sticky;
+ top: 0;
+ z-index: 2;
+}
+
+.web-logo {
+float: right;
+display: flex;
+justify-content: space-around;
+padding: 10px;
+color: white;
+}
+
+ .web-logo a {
+   color: white;
+   padding: 10px;
+   font-weight: 600;
+   transition: 0.4s;
+}
+
+ .web-logo a:hover {
+    color: rgb(255, 0, 0);
+
+}
+
+.bg-nav {
+  
+    height: 70px;
+    background-color: black;
+    
+}
+
+
+
+.logo h3 {
+    position: absolute;
+    text-decoration: none !important;
+   color: rgb(255, 83, 83);
+   
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+font: 600;
+    padding: 15px;
+}
+.logo a {
+     
+}
+
+
+
+
+ 
+
+.nav {
+margin: 20px;
+}
+
+.nav-items{
+display: flex;
+float: right;
+padding-right:10rem;
+list-style: none;
+margin-top: 10px;
+}
+
+.link-sty {
+  cursor: pointer;
+}
+
+.nav-link .link-sty{
+text-decoration: none;
+font-size: 15px;
+color:  white;
+padding: 20px;
+   transition: 0.5s ease all;
+text-transform: uppercase;
+font-family:monospace;
+}
+
+.link-sty:hover {
+color: rgb(226, 53, 53);
+   
+}
+
+.menu-icons {
+  display: ;
+}
+
+.menu-icons {
+  display: none;
+}
+@media screen and (max-width: 1000px){
+    .nav-items{
+padding-right:5rem;
+
+    }
+     .web-logo a {
+    display: none;
+}
+}
+
+
+@media screen and (max-width: 870px){
+.menu-icons {
+    display: block;
+    padding-top: 11px;
+    float: right;
+    color: white;
+    font-size: 30px;
+}
+
+.nav-items {
+    display: none;
+}
+
+  .NavbarItems {
+    position: relative;
+  }
+
+  .nav-items {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 40px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    font-size: 40px;
+  }
+
+  .nav-items.active {
+    background: #1c2237;
+    left: 0;
+    opacity: 1;
+    transition: all 0.6s ease;
+    z-index: 1;
+  }
+
+  .link-sty {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+
+  }
+
+   .nav-link .link-sty {
+     font-size: 30px;
+   }
+
+.nav-items {
+       font-size: 30px; 
+          padding:30px;
+
+       text-transform: uppercase;
+  }
+
+  .link-sty:hover {
+    color: #f00946;
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+    text-align: center;
+  }
+
+  .nav-links:hover {
+    border: none;
+  }
+
+  .text-body {
+      flex-wrap: nowrap;
+      flex-direction: column;
+  }
+
+
+}
