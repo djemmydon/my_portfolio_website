@@ -1,4 +1,4 @@
-import React, { Component,   useState, useEffect  } from 'react'
+import React from 'react'
 import './form.css'
 import Aos from 'aos';
 import 'aos/dist/aos.css'
@@ -69,7 +69,7 @@ return true;
 
                
                 <form onSubmit={this.handleSubmited} >
-                     <h2 class="lined text-uppercase text-center">CONTACT</h2>
+                     <h2 className="lined text-uppercase text-center">CONTACT</h2>
                         <div className="row100">
                             <div className="col">
                               <div className="input-area">

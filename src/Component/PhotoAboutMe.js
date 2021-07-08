@@ -16,7 +16,7 @@ function PhotoAboutMe() {
 
         
         <div    className='container about-us'>
-                 <h2 class="lined text-uppercase text-center">DOCUMENT</h2    >
+                 <h2 className="lined text-uppercase text-center">DOCUMENT</h2    >
             <div data-aos='fade-up' className="rowling">
                 
                 <a href="https://github.com/djemmydon/Brandistarforme">

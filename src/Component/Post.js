@@ -16,7 +16,7 @@ function Post() {
         <div data-aos = 'fade-left '>
 
             <div className="what-i-do container">
-                <h2 class="lined text-uppercase text-center">SERVICES</h2>
+                <h2 className="lined text-uppercase text-center">SERVICES</h2>
                 <div className="row text-center">
                     <div className="main-do  col-lg-4">
 

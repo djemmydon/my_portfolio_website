@@ -1,8 +1,8 @@
 import './App.css';
-import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom'
+import {BrowserRouter as Router} from 'react-router-dom'
 import React, { useState, useEffect } from 'react';
 import './Component/navbar.css';
-import ImageSlide from './Component/ImageSlide';
+
 import PhotoAboutMe from './Component/PhotoAboutMe';
 import Nav from './Component/Nav'
 import Navbar from './Component/Navbar';
@@ -41,7 +41,7 @@ const [loading, setLoading] = useState(false);
         <Navbar />
          <Nav />
     
-    <ImageSlide />
+   
             <Post />
     <PhotoAboutMe />
     <About />

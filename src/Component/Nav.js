@@ -1,12 +1,11 @@
 
 import { Link } from 'react-scroll'
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 
 import './nav.css';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { motion } from 'framer-motion';
-import Navbar from './Navbar';
-import Post from './Post';
+
 function Nav() {
   
 
@@ -35,7 +34,7 @@ function Nav() {
 
                 </div>
 
-                <div clsssName='nav'>
+                <div >
 
                     <ul className={click ? 'nav-items active' : 'nav-items'}>
                         <li className='nav-link'>
