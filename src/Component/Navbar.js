@@ -43,8 +43,8 @@ function Navbar() {
                 
                 
                 <div className="btn-edit">
-             <a href="">     <button className='button-1'>
-                  Hire me
+             <a href="Form">     <button className='button-1'>
+                  Message
                 </button></a>
                 </div>
                         </div>

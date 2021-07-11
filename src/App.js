@@ -15,7 +15,7 @@ import About from './Component/About';
 import Footer from './Component/Footer';
 function App() {
 const [loading, setLoading] = useState(false);
-  let [speedMultiplier, setSpeedMultiplier] = useState(2);
+  let [speedMultiplier] = useState(2);
 
 
   useEffect(() => {
